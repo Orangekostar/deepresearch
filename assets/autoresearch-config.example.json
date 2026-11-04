@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "name": "replace-with-project-name",
+  "project_dir": ".",
+  "commands": {"search": ["python3", "evaluate.py"], "confirm": ["python3", "evaluate.py"]},
+  "metric": {"name": "mse", "direction": "min", "min_delta": 0.001},
+  "editable_files": ["train_config.json"],
+  "protected_files": ["evaluate.py"],
+  "budgets": {"max_trials": 8, "per_trial_seconds": 300, "max_total_seconds": 1800, "max_consecutive_failures": 2}
+}

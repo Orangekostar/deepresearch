@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "profiles": {
+    "source_faithful": {
+      "font": "DejaVu Sans Mono", "tick_pt": 8, "label_pt": 8.5, "title_pt": 9,
+      "width_mm": 88, "normal_line_pt": 1.4, "focus_line_pt": 1.7, "axis_pt": 0.7, "band_alpha": 0.12
+    },
+    "origin_publication": {
+      "font": "DejaVu Sans", "origin_font_recommendation": "Arial", "tick_pt": 8,
+      "label_pt": 9, "title_pt": 9.5, "width_mm": 180,
+      "normal_line_pt": 1.4, "focus_line_pt": 1.8, "axis_pt": 0.7, "band_alpha": 0.12
+    }
+  },
+  "methods": {
+    "candidate": {"color": "#9C2948", "line": "solid", "focus": true},
+    "baseline": {"color": "#35659A", "line": "dashed", "focus": false},
+    "alternative": {"color": "#147D64", "line": "dashdot", "focus": false}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version":1,
+  "name":"cpu-linear-regression-demo",
+  "project_dir":".",
+  "commands":{"search":["python3","evaluate.py"],"confirm":["python3","evaluate.py"]},
+  "metric":{"name":"mse","direction":"min","min_delta":0.0001},
+  "editable_files":["train_config.json"],
+  "protected_files":["evaluate.py"],
+  "budgets":{"max_trials":8,"per_trial_seconds":10,"max_total_seconds":60,"max_consecutive_failures":2}
+}

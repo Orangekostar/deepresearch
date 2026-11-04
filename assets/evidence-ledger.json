@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "study": {"task": null, "primary_outcome": null, "independent_unit": null, "split_rule": null, "cost_basis": null},
+  "claims": [
+    {"id": "C1", "text": null, "kind": "mechanism", "scope": null, "status": "hypothesis", "falsifier": null, "evidence_ids": ["E1"]}
+  ],
+  "experiments": [
+    {"id": "E1", "question": null, "claim_ids": ["C1"], "status": "planned", "changed_factor": null, "controls": [], "metrics": [], "result": null, "artifacts": [], "interpretations": {}}
+  ],
+  "manuscript_claim_ids": []
+}
